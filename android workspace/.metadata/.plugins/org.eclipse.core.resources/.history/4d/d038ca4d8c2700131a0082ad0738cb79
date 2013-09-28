@@ -1,0 +1,70 @@
+package com.sebastian.reminder;
+
+import java.util.Date;
+
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteException;
+
+public class DatabaseControl 
+{
+	private static final String DATABASE_TABLE = "daily";	
+	private static final String KEY_ROWID = "id";
+	private static final String KEY_TITLE = "title";
+	private static final String KEY_DATE = "date";
+	private static final String KEY_TIME = "time";
+	private static final String KEY_REMINDER = "reminder";
+	
+	private Context context;
+	private SQLiteDatabase database;
+	private DatabaseHelper database_helper;
+	
+	public DatabaseControl (Context context)
+	{
+		this.context = context;
+	}
+	
+	public DatabaseControl openDatabase () throws SQLiteException
+	{
+		database_helper = new DatabaseHelper(context);
+		database = database_helper.getWritableDatabase();
+		return this;		
+	}
+	
+	public void closeDatabase ()
+	{
+		database_helper.close();
+	}
+	
+	public long addDailyEvent(String title,String date,String time,String remindertype)
+	{
+		ContentValues contentValues = createContentValues(title,date,time,remindertype);
+	}
+
+	private ContentValues createContentValues(String title, String date, String time, String remindertype)
+	{		
+		ContentValues contentValues = new ContentValues();
+		contentValues.put(KEY_TITLE, title);
+		contentValues.put(KEY_DATE, date);
+		contentValues.put(KEY_TIME, time);
+		contentValues.put(KEY_REMINDER, remindertype);
+				
+		return contentValues;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

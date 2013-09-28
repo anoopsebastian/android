@@ -1,0 +1,8 @@
+package com.sebastian.reminder;
+
+import android.support.v4.app.FragmentPagerAdapter;
+
+public class TabsAdapter extends FragmentPagerAdapter 
+{
+
+}

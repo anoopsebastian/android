@@ -1,0 +1,82 @@
+package com.sebastian.reminder;
+
+import java.util.ArrayList;
+
+import android.content.Context;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentTransaction;
+
+import com.actionbarsherlock.app.ActionBar;
+import com.actionbarsherlock.app.ActionBar.Tab;
+
+import android.support.v4.view.ViewPager;
+
+public class TabsAdapter extends FragmentPagerAdapter implements ActionBar.TabListener, ViewPager.OnPageChangeListener 
+{
+	private final Context context;
+	private final ActionBar actionBar;
+	private final ViewPager viewPager;
+	private final ArrayList<TabInfo> tabs = new ArrayList<TabInfo>();
+
+	
+	public TabsAdapter(FragmentManager fm) {
+		super(fm);
+		
+	}
+
+	
+	public Fragment getItem(int position) {
+		TabInfo info = tabs.get(position);
+		return Fragments.instatiate(context,info.clss.getName());
+	}
+
+	
+	public int getCount() {
+		return tabs.size();
+	}
+
+
+	@Override
+	public void onPageScrollStateChanged(int arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void onPageScrolled(int arg0, float arg1, int arg2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void onPageSelected(int arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void onTabSelected(Tab tab, FragmentTransaction ft) {
+		viewPager.setCurrentItem(tab.getPosition());
+		
+	}
+
+
+	@Override
+	public void onTabUnselected(Tab tab, FragmentTransaction ft) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void onTabReselected(Tab tab, FragmentTransaction ft) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,31 @@
+package com.sebastian.reminder;
+
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteException;
+
+public class DatabaseControl 
+{
+	private static final String DATABASE_TABLE = "daily";	
+	private static final String KEY_ROWID = "id";
+	private static final String KEY_TITLE = "title";
+	private static final String KEY_DATE = "date";
+	private static final String KEY_TIME = "time";
+	private static final String KEY_REMINDER = "reminder";
+	
+	private Context context;
+	private SQLiteDatabase database;
+	private DatabaseHelper database_helper;
+	
+	public DatabaseControl(Context context)
+	{
+		this.context = context;
+	}
+	
+	public DatabaseControl open() throws SQLiteException
+	{
+		database_helper = new DatabaseHelper(context);
+		database = database_helper.getWritableDatabase();
+		return this;		
+	}
+}

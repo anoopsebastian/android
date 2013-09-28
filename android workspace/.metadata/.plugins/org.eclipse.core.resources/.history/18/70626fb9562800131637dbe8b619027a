@@ -1,0 +1,24 @@
+package com.sebastian.reminder;
+
+import android.os.Bundle;
+import android.support.v4.view.ViewPager;
+
+import com.actionbarsherlock.app.SherlockFragmentActivity;
+import com.actionbarsherlock.sample.fragments.FragmentTabsPager.TabsAdapter;
+
+public class TabActivity extends SherlockFragmentActivity
+{
+	private ViewPager viewPager;
+	private TabsAdapter tabsAdapter;
+
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		
+		viewPager = new ViewPager(this);
+		viewPager.setId(R.id.viewPager);
+		setContentView(viewPager);
+		
+		fina
+	}
+
+}

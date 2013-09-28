@@ -1,0 +1,25 @@
+package com.sebastian.reminder;
+
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+
+public class TabsAdapter extends FragmentPagerAdapter 
+{
+
+	public TabsAdapter(FragmentManager fm) {
+		super(fm);
+		
+	}
+
+	
+	public Fragment getItem(int arg0) {
+		return null;
+	}
+
+	
+	public int getCount() {
+		return 0;
+	}
+
+}
