@@ -3,6 +3,7 @@ package com.sebastian.reminder;
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.Dialog;
+import android.content.Intent;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
@@ -63,11 +64,9 @@ public class HomePage extends Activity
     		rowid = dbControl.addDailyEvent(titleText, dateText, timeText, typeText);
     		
     		Log.e(TAG, "Item added in row: "+rowid);
-    		Log.e(TAG, "Item by date: "+dbControl.getItemIdByDate(dateText));
     		dbControl.closeDatabase();
     		
-    		
-    		
+    		    		
     	}
     }    
 }

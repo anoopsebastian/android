@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="24" version="2.0">
+<workbench progressCount="30" version="2.0">
 <workbenchAdvisor/>
 <window height="773" maximized="true" width="656" x="710" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -14,10 +14,10 @@
 <coolItem id="adt.actionSet.lint" itemType="typeToolBarContribution" x="60" y="30"/>
 <coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
@@ -36,29 +36,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TabActivity.java" partName="TabActivity.java" path="/home/anoop/workspace/android workspace/Reminder/src/com/sebastian/reminder/TabActivity.java" title="TabActivity.java" tooltip="Reminder/src/com/sebastian/reminder/TabActivity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reminder/src/com/sebastian/reminder/TabActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="41" selectionOffset="59" selectionTopPixel="32"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="tabs_main.xml" partName="tabs_main.xml" path="/home/anoop/workspace/android workspace/Reminder/res/layout/tabs_main.xml" title="tabs_main.xml" tooltip="Reminder/res/layout/tabs_main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reminder/res/layout/tabs_main.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="home_page.xml" partName="home_page.xml" path="/home/anoop/workspace/android workspace/Reminder/res/layout/home_page.xml" title="home_page.xml" tooltip="Reminder/res/layout/home_page.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reminder/res/layout/home_page.xml"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TabsAdapter.java" partName="TabsAdapter.java" path="/home/anoop/workspace/android workspace/Reminder/src/com/sebastian/reminder/TabsAdapter.java" title="TabsAdapter.java" tooltip="Reminder/src/com/sebastian/reminder/TabsAdapter.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reminder/src/com/sebastian/reminder/TabsAdapter.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1416" selectionTopPixel="848"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
@@ -75,9 +56,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="349" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -120,7 +98,7 @@
 </view>
 <view id="org.eclipse.cdt.debug.ui.executablesView" partName="Executables"/>
 <view id="org.eclipse.pde.runtime.LogView" partName="Error Log">
-<viewState activate="true" allSessions="true" column2="300" column3="150" column4="481" error="true" groupBy="0" info="true" limit="50" ok="true" orderType="2" orderValue="-1" show_filter_text="true" useLimit="true" warning="true"/>
+<viewState activate="true" allSessions="true" column2="611" column3="150" column4="481" error="true" groupBy="0" info="true" limit="50" ok="true" orderType="2" orderValue="-1" show_filter_text="true" useLimit="true" warning="true"/>
 </view>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
@@ -140,7 +118,7 @@
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -302,8 +280,8 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.26579353" ratioLeft="345" ratioRight="953" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.7340591" ratioLeft="472" ratioRight="171" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.pde.runtime.LogView" appearance="2" expanded="2">
+<info folder="true" part="bottom" ratio="0.71288747" ratioLeft="437" ratioRight="176" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
@@ -444,173 +422,12 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reminder/src/com/sebastian/reminder/DatabaseHelper.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reminder/src/com/sebastian/reminder/DatabaseControl.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Reminder/res/layout/home_page.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reminder/src/com/sebastian/reminder/HomePage.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/library/src/com/viewpagerindicator/CirclePageIndicator.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/library/src/com/viewpagerindicator/UnderlinePageIndicator.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reminder/src/com/sebastian/reminder/TabActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/Reminder/project.properties"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Reminder/res/layout/tabs_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/Reminder/res/layout/tabs_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Reminder/res/layout/home_page.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Reminder/res/layout/tabs_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reminder/src/com/sebastian/reminder/TabsAdapter.java"/>
-</editors>
-<item historyLabel="HomePage.java" index="3">
-<position info="not_deleted" x="1883" y="0"/>
-</item>
-<item historyLabel="HomePage.java" index="3">
-<position info="not_deleted" x="1997" y="0"/>
-</item>
-<item historyLabel="HomePage.java" index="3">
-<position info="not_deleted" x="1961" y="0"/>
-</item>
-<item historyLabel="HomePage.java" index="3">
-<position info="not_deleted" x="477" y="0"/>
-</item>
-<item historyLabel="DatabaseHelper.java" index="0">
-<position info="not_deleted" x="504" y="0"/>
-</item>
-<item historyLabel="HomePage.java" index="3">
-<position info="not_deleted" x="477" y="0"/>
-</item>
-<item historyLabel="DatabaseHelper.java" index="0">
-<position info="not_deleted" x="504" y="0"/>
-</item>
-<item historyLabel="HomePage.java" index="3">
-<position info="not_deleted" x="477" y="0"/>
-</item>
-<item historyLabel="HomePage.java" index="3">
-<position info="not_deleted" x="540" y="0"/>
-</item>
-<item historyLabel="DatabaseHelper.java" index="0">
-<position info="not_deleted" x="725" y="0"/>
-</item>
-<item historyLabel="HomePage.java" index="3">
-<position info="not_deleted" x="540" y="0"/>
-</item>
-<item historyLabel="HomePage.java" index="3">
-<position info="not_deleted" x="1946" y="0"/>
-</item>
-<item historyLabel="DatabaseControl.java" index="1">
-<position info="not_deleted" x="1707" y="0"/>
-</item>
-<item historyLabel="HomePage.java" index="3">
-<position info="not_deleted" x="1946" y="0"/>
-</item>
-<item historyLabel="DatabaseHelper.java" index="0">
-<position info="not_deleted" x="725" y="0"/>
-</item>
-<item historyLabel="CirclePageIndicator.java" index="4">
-<position info="not_deleted" x="2522" y="1"/>
-</item>
-<item historyLabel="UnderlinePageIndicator.java" index="5">
-<position info="not_deleted" x="2576" y="0"/>
-</item>
-<item historyLabel="TabActivity.java" index="6">
-<position info="not_deleted" x="102" y="0"/>
-</item>
-<item historyLabel="project.properties" index="7">
-<position info="not_deleted" x="562" y="0"/>
-</item>
-<item historyLabel="TabActivity.java" index="6">
-<position info="not_deleted" x="102" y="0"/>
-</item>
-<item historyLabel="TabActivity.java" index="6">
-<position info="not_deleted" x="558" y="0"/>
-</item>
-<item historyLabel="tabs_main.xml" index="8"/>
-<item historyLabel="home_page.xml" index="2"/>
-<item historyLabel="tabs_main.xml" index="8">
-<position info="not_deleted" x="656" y="0"/>
-</item>
-<item historyLabel="tabs_main.xml" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TabActivity.java" index="6">
-<position info="not_deleted" x="558" y="0"/>
-</item>
-<item historyLabel="tabs_main.xml" index="8"/>
-<item historyLabel="TabActivity.java" index="6">
-<position info="not_deleted" x="558" y="0"/>
-</item>
-<item historyLabel="home_page.xml" index="10"/>
-<item historyLabel="tabs_main.xml" index="11"/>
-<item historyLabel="TabActivity.java" index="6">
-<position/>
-</item>
-<item historyLabel="home_page.xml" index="10"/>
-<item historyLabel="TabActivity.java" index="6">
-<position info="not_deleted" x="474" y="0"/>
-</item>
-<item historyLabel="TabActivity.java" index="6">
-<position info="not_deleted" x="557" y="0"/>
-</item>
-<item historyLabel="TabActivity.java" index="6">
-<position info="not_deleted" x="1013" y="0"/>
-</item>
-<item historyLabel="TabActivity.java" index="6">
-<position info="not_deleted" x="1021" y="0"/>
-</item>
-<item historyLabel="TabActivity.java" index="6">
-<position info="not_deleted" x="1013" y="0"/>
-</item>
-<item historyLabel="TabActivity.java" index="6">
-<position info="not_deleted" x="406" y="0"/>
-</item>
-<item historyLabel="TabsAdapter.java" index="12">
-<position info="not_deleted" x="951" y="0"/>
-</item>
-<item historyLabel="TabActivity.java" index="6">
-<position info="not_deleted" x="102" y="43"/>
-</item>
-<item historyLabel="TabsAdapter.java" index="12">
-<position info="not_deleted" x="713" y="0"/>
-</item>
-<item historyLabel="TabActivity.java" index="6">
-<position info="not_deleted" x="59" y="41"/>
-</item>
-<item historyLabel="TabsAdapter.java" index="12">
-<position info="not_deleted" x="713" y="0"/>
-</item>
-<item historyLabel="TabsAdapter.java" index="12">
-<position info="not_deleted" x="679" y="0"/>
-</item>
-<item historyLabel="TabsAdapter.java" index="12">
-<position info="not_deleted" x="713" y="0"/>
-</item>
-<item historyLabel="TabsAdapter.java" index="12">
-<position info="not_deleted" x="711" y="0"/>
-</item>
-<item historyLabel="TabsAdapter.java" index="12">
-<position info="not_deleted" x="969" y="0"/>
-</item>
-<item historyLabel="TabsAdapter.java" index="12">
-<position info="not_deleted" x="856" y="0"/>
-</item>
-<item historyLabel="TabsAdapter.java" index="12">
-<position info="not_deleted" x="916" y="0"/>
-</item>
-<item active="true" historyLabel="TabsAdapter.java" index="12">
-<position info="not_deleted" x="915" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="bottom"/>
-<trimItem IMemento.internal.id="right"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -622,6 +439,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="SwipeyTabs/AndroidManifest.xml">
+<persistable path="/SwipeyTabs/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HomePage.java" tooltip="Reminder/src/com/sebastian/reminder/HomePage.java">
+<persistable path="/Reminder/src/com/sebastian/reminder/HomePage.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ACTIONBARSHERLOCK.java" tooltip="actionbarsherlock-fest/src/main/java/org/fest/assertions/api/ACTIONBARSHERLOCK.java">
+<persistable path="/actionbarsherlock-fest/src/main/java/org/fest/assertions/api/ACTIONBARSHERLOCK.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Reminder/AndroidManifest.xml">
+<persistable path="/Reminder/AndroidManifest.xml"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TabsAdapter.java" tooltip="Reminder/src/com/sebastian/reminder/TabsAdapter.java">
 <persistable path="/Reminder/src/com/sebastian/reminder/TabsAdapter.java"/>
 </file>
@@ -636,9 +465,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TabActivity.java" tooltip="Reminder/src/com/sebastian/reminder/TabActivity.java">
 <persistable path="/Reminder/src/com/sebastian/reminder/TabActivity.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HomePage.java" tooltip="Reminder/src/com/sebastian/reminder/HomePage.java">
-<persistable path="/Reminder/src/com/sebastian/reminder/HomePage.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DatabaseControl.java" tooltip="Reminder/src/com/sebastian/reminder/DatabaseControl.java">
 <persistable path="/Reminder/src/com/sebastian/reminder/DatabaseControl.java"/>

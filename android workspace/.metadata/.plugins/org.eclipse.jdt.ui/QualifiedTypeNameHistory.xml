@@ -28,4 +28,8 @@
 <fullyQualifiedTypeName name="com.sebastian.reminder.TabsAdapter"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="com.sebastian.reminder.TabActivity"/>
+<fullyQualifiedTypeName name="org.fest.assertions.api.com.actionbarsherlock.view.MenuItemAssert"/>
+<fullyQualifiedTypeName name="org.fest.assertions.api.com.actionbarsherlock.app.ActionBarAssert"/>
 </qualifiedTypeNameHistroy>
